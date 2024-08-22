@@ -1,0 +1,100 @@
+.popup{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.205);
+    top: 0px;
+}
+
+.popup-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 400px;
+    background-color: #fff;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+
+.popup__button{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-image: url(../../assets/icon/x.svg);
+    width: 24px;
+    height: 24px;
+    border: unset;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.popup__header{
+    padding: 24px;
+    font-size: 24px;
+}
+
+.popup__body{
+    padding: 0 24px 24px 24px;
+
+}
+
+.popup__footer{
+    border: 1px solid #E0E0E0;
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 12px 24px;
+    border-radius: 0 0 4px 4px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup-footer__right{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: auto;
+}
+
+.popup__footer button{
+    text-align: center;
+    justify-content: center;
+    line-height: 36px;
+    border: 1px solid #E0E0E0;
+    color: #212121;
+}
+
+.employee-info{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 24px;
+}
+
+.general-info-left{
+    width: calc(50% - 16px);
+}
+
+.general-info-right{
+    width: calc(50% - 16px);
+}
+
+.contact-info{
+    width: 100%;
+}
+
+
+.radio{
+    display: flex;
+    flex-direction: row;
+}
+
+.test-radiobutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.radio-label{
+    margin-left: 8px;
+}
